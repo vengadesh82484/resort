@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    background-color: #030303;
+    color:#ffff;
+    justify-content: space-between;
+    height: 86px;
+
+    
+}
+nav li{
+    display: inline ;
+    list-style: none;
+    margin: 40px;
+    
+    
+
+}
+
+li:hover{
+    cursor: pointer;
+    color: #a01515;
+}

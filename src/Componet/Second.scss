@@ -1,0 +1,36 @@
+.photo{
+    background-image: url(./6a80893ac12da2f010c491a667024c54.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    padding: 40px 20px 40px 20px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.zero{
+    display: flex;
+    gap: 30vh;
+    padding: 30px 20px 30px 20px;
+    margin-left: 162px;
+    animation:fadeIn 4s ease-in-out ;
+}
+.last{
+    animation: fadeIn 4s ease-in-out;
+}
